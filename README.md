@@ -107,17 +107,29 @@ The system runs on CPU and does not train any machine learning models.
 
 news-verification-claim-analysis-system/
 │
+
 ├── app.py # Streamlit frontend
+
 ├── main.py # Backend entry point
+
 ├── workflow.py # LangGraph workflow
+
 │
+
 ├── agents.py # Reasoning agents
+
 ├── tools.py # Scraping & search utilities
+
 ├── utils.py # Logging & helpers
+
 ├── config.py # Configuration & environment variables
+
 │
+
 ├── requirements.txt
+
 ├── .env.example
+
 └── README.md
 
 yaml
