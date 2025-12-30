@@ -131,40 +131,22 @@ Copy code
 git clone https://github.com/your-username/news-verification-claim-analysis-system.git
 cd news-verification-claim-analysis-system
 
-clean
-Copy code
-
 ### 2. Create and activate a virtual environment
 python -m venv venv
-
-makefile
-Copy code
 
 Windows:
 venv\Scripts\activate
 
-nix
-Copy code
-
 Linux / macOS:
 source venv/bin/activate
 
-clean
-Copy code
-
 ### 3. Install dependencies
 pip install -r requirements.txt
-
-julia
-Copy code
 
 ### 4. Configure environment variables
 Create a `.env` file using `.env.example`:
 
 OPENROUTER_API_KEY=your_openrouter_api_key
-
-clean
-Copy code
 
 ### 5. Run the application
 streamlit run app.py
@@ -191,16 +173,6 @@ For each article, the system provides:
 - Designed for analysis, not absolute truth determination
 
 These limitations are intentionally surfaced in the output.
-
----
-
-## 🚀 Future Improvements
-
-- Source credibility scoring
-- Multilingual article support
-- Visual evidence acknowledgment
-- Confidence normalization
-- Performance optimizations and caching
 
 ---
 
