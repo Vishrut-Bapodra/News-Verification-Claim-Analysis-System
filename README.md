@@ -131,9 +131,6 @@ news-verification-claim-analysis-system/
 
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## ▶️ How to Run the Project
